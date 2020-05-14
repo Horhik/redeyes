@@ -1,0 +1,22 @@
+
+.logo--wrapper {
+  display: grid;
+  font-family: 'Fira Code',monospace, Ubuntu;
+}
+.logo-quote {
+  text-align: center;
+  color: var(--foreground);
+
+}
+.logo{
+  margin: 30px auto 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+.toilet-logo{
+  color: var(--orange);
+  font-size: 0.9em;
+  line-height: 1.25em;
+}

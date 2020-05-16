@@ -11,70 +11,74 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b1db503-490b-4f06-812d-6b9b94d2764a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/horhik.dev.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/elements/logo.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/homepage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/basic.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/logo.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/functions/ascii-word.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pagga.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/Gruntfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/Gruntfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/examples/node/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/examples/node/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/examples/node/appSync.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/examples/node/appSync.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/1Row.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/1Row.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/3-D.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/3-D.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/3x5.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/3x5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/4Max.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/4Max.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/B1FF.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/B1FF.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Basic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Basic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Bear.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Bear.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Bell.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Bell.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Big.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Big.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Cards.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Cola.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Cola.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Doh.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Doh.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Doom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Doom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Epic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Epic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Hex.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Hex.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Kban.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Kban.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Knob.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Knob.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/LCD.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/LCD.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Lean.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Lean.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Mike.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Mike.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Mini.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Mini.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/O8.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/O8.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/OS2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/OS2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Ogre.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Ogre.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Pagga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Pagga.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Pawp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Pawp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Soft.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Soft.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Stop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Stop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Swan.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Swan.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/THIS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/THIS.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Term.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Term.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Thin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Thin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Wavy.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Wavy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Wow.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/importable-fonts/Wow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/lib/figlet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/lib/figlet.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/lib/node-figlet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/lib/node-figlet.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/test/figlet_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/test/figlet_test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/utils/flf-to-strings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-dont-take-your-pullrequest/figlet.js/utils/flf-to-strings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/elements/page-links.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/elements/page-links.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/fonts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/fonts/mononoki-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/fonts/mononoki-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/fonts/mononoki-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/fonts/mononoki-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/fonts/mononoki-BoldItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/fonts/mononoki-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/fonts/mononoki-BoldItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/fonts/mononoki-BoldItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/fonts/mononoki-Italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/fonts/mononoki-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/fonts/mononoki-Italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/fonts/mononoki-Italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/fonts/mononoki-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/fonts/mononoki-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/fonts/mononoki-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/fonts/mononoki-Regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/elements/logo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/elements/logo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/homepage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/homepage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/basic.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/basic.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/logo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/logo.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/Gruntfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/Gruntfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/examples/node/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/examples/node/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/examples/node/appSync.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/examples/node/appSync.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/1Row.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/1Row.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/3-D.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/3-D.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/3x5.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/3x5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/4Max.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/4Max.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/B1FF.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/B1FF.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Basic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Basic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Bear.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Bear.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Bell.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Bell.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Big.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Big.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Cards.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Cola.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Cola.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Doh.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Doh.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Doom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Doom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Epic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Epic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Hex.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Hex.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Kban.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Kban.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Knob.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Knob.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/LCD.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/LCD.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Lean.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Lean.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Mike.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Mike.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Mini.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Mini.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/O8.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/O8.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/OS2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/OS2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Ogre.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Ogre.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Pagga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Pagga.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Pawp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Pawp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Soft.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Soft.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Stop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Stop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Swan.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Swan.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/THIS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/THIS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Term.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Term.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Thin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Thin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Wavy.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Wavy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Wow.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Wow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/lib/figlet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/lib/figlet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/lib/node-figlet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/lib/node-figlet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/test/figlet_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/test/figlet_test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/utils/flf-to-strings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/utils/flf-to-strings.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +130,8 @@
       <workItem from="1589180814765" duration="287000" />
       <workItem from="1589181883788" duration="9843000" />
       <workItem from="1589253283370" duration="5339000" />
-      <workItem from="1589450996359" duration="6161000" />
+      <workItem from="1589450996359" duration="6767000" />
+      <workItem from="1589583447607" duration="3878000" />
     </task>
     <servers />
   </component>
@@ -185,10 +190,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="393" y="202" key="SettingsEditor/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1589189511639" />
-    <state x="538" y="-150" width="766" height="653" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1589254258474">
+    <state x="536" y="-170" width="766" height="653" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1589586081667">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="538" y="-150" width="766" height="653" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1589254258474" />
+    <state x="536" y="-170" width="766" height="653" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1589586081666" />
     <state x="623" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1589453965331">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

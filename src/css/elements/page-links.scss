@@ -1,0 +1,26 @@
+.page-list{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin: 0 auto;
+  font-family: Mononoki;
+}
+
+.page-link{
+  font-size: 0.4em;
+  line-height: $ascii-line-height;
+  width: 100px;
+  transition: 0.3s;
+  & a{
+    color: var(--cyan);
+    text-decoration: none;
+    display: block;
+    &:visited{
+      color: var(--purple);
+    }
+    &:hover, &:focus{
+      color: var(--pink)
+    }
+  }
+}

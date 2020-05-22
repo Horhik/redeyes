@@ -1,10 +1,11 @@
-import figlet from '../when-module-doesnt-merge-your-pullrequest/figlet.js'
-import Pagga from '../when-module-doesnt-merge-your-pullrequest/figlet.js/importable-fonts/Pagga'
-const font = "Pagga"
+import figlet from 'figlet'
+import Pagga from '../ascii/Pagga'
+import Nancyj from "figlet/importable-fonts/Nancyj";
 
-const asciiWord = word => {
+
+const asciiWord = (word, font = 'Pagga') => {
     let text = ''
-    figlet.parseFont(font, Pagga);
+    figlet.parseFont(font, font === "Pagga" ? Pagga : Nancyj);
     figlet.text(word, {
         font,
     }, function(err, data) {

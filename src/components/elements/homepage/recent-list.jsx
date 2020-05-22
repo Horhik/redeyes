@@ -1,6 +1,7 @@
 import React from 'react'
 import {connect} from 'react-redux'
 import RecentBlock from "./recent-block";
+import Contacts from "../contacts";
 
 const Recent = props => {
     return (
@@ -29,6 +30,7 @@ const Recent = props => {
                     <RecentBlock header={" Life is unfair, kill yourself or get over it"} pos={'left'}/>
                 </li>
             </ul>
+            <Contacts/>
         </section>
     )
 }

@@ -10,7 +10,23 @@ const Recent = props => {
             </h1>
             <ul className="recent-list">
                 <li>
-                    <RecentBlock/>
+                    <RecentBlock header={" My school report said I showed no interest"} pos="left"/>
+                </li>
+
+                <li>
+                    <RecentBlock header={"\"A disruptive influence\" I felt sorry for them in a way"}/>
+                </li>
+                <li>
+                    <RecentBlock header={"When they finally expelled me"} pos={'left'}/>
+                </li>
+                <li>
+                    <RecentBlock header={"It didn't mean a thing"} pos={'left'}/>
+                </li>
+                <li>
+                    <RecentBlock header={" Life is unfair, kill yourself or get over it"} pos={'right'}/>
+                </li>
+                <li>
+                    <RecentBlock header={" Life is unfair, kill yourself or get over it"} pos={'left'}/>
                 </li>
             </ul>
         </section>

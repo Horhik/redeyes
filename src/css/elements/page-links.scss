@@ -16,9 +16,6 @@
     color: var(--cyan);
     text-decoration: none;
     display: block;
-    &:visited{
-      color: var(--purple);
-    }
     &:hover, &:focus{
       color: var(--pink)
     }

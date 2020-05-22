@@ -11,32 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b1db503-490b-4f06-812d-6b9b94d2764a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/elements/page-links.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/elements/page-links.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/fonts/mononoki-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/fonts/mononoki-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/fonts/mononoki-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/fonts/mononoki-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/fonts/mononoki-BoldItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/fonts/mononoki-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/fonts/mononoki-BoldItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/fonts/mononoki-BoldItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/fonts/mononoki-Italic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/fonts/mononoki-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/fonts/mononoki-Italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/fonts/mononoki-Italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/fonts/mononoki-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/fonts/mononoki-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/fonts/mononoki-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/fonts/mononoki-Regular.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/elements/recent-block.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/all-reducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/client-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/main-page-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/elements/logo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/elements/logo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/homepage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/homepage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/basic.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/basic.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/logo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/logo.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/elements/page-links.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/elements/page-links.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/Gruntfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/Gruntfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/examples/node/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/examples/node/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/examples/node/appSync.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/examples/node/appSync.js" afterDir="false" />
@@ -131,7 +113,8 @@
       <workItem from="1589181883788" duration="9843000" />
       <workItem from="1589253283370" duration="5339000" />
       <workItem from="1589450996359" duration="6767000" />
-      <workItem from="1589583447607" duration="3878000" />
+      <workItem from="1589583447607" duration="5148000" />
+      <workItem from="1590125952856" duration="1511000" />
     </task>
     <servers />
   </component>
@@ -190,10 +173,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="393" y="202" key="SettingsEditor/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1589189511639" />
-    <state x="536" y="-170" width="766" height="653" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1589586081667">
+    <state x="534" y="-190" width="766" height="653" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1590127355329">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="536" y="-170" width="766" height="653" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1589586081666" />
+    <state x="534" y="-190" width="766" height="653" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1590127355329" />
     <state x="623" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1589453965331">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

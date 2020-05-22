@@ -11,9 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b1db503-490b-4f06-812d-6b9b94d2764a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/elements/homepage/recent-block.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/elements/homepage/recent-list.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/elements/recent-list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/svg/github-icon.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/elements/recent-block.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/homepage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/homepage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/basic.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/basic.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/fonts.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/Gruntfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/Gruntfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/examples/node/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/examples/node/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/examples/node/appSync.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/when-module-doesnt-merge-your-pullrequest/figlet.js/examples/node/appSync.js" afterDir="false" />
@@ -90,6 +95,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/elements/homepage" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/css" />
     </key>
@@ -109,7 +115,7 @@
       <workItem from="1589253283370" duration="5339000" />
       <workItem from="1589450996359" duration="6767000" />
       <workItem from="1589583447607" duration="5148000" />
-      <workItem from="1590125952856" duration="1899000" />
+      <workItem from="1590125952856" duration="6069000" />
     </task>
     <servers />
   </component>
@@ -168,10 +174,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="393" y="202" key="SettingsEditor/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1589189511639" />
-    <state x="534" y="-190" width="766" height="653" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1590127355329">
+    <state x="526" y="-270" width="766" height="653" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1590129811747">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="534" y="-190" width="766" height="653" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1590127355329" />
+    <state x="526" y="-270" width="766" height="653" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1590129811747" />
     <state x="623" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1589453965331">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

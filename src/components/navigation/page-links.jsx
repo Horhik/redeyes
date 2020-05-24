@@ -1,18 +1,19 @@
 import React from 'react'
 import asciiWord from "../../functions/ascii-word";
+import {Link} from "react-router-dom";
 
 const PageLinks = props => {
     return(
         <ul className={'page-list'}>
             <li className={'page-link'}>
-                <a href="#portfolio">
+                <Link to={'/portfolio'}>
                     {asciiWord('Portfolio')}
-                </a>
+                </Link>
             </li>
             <li className={'page-link'}>
-                <a href="#blog">
+                    <Link to={'/blog'}>
                     {asciiWord('Blog')}
-                </a>
+                    </Link>
             </li>
         </ul>
     )

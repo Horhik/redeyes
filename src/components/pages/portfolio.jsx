@@ -11,7 +11,9 @@ const PortfolioItem = (props) => {
   return (
     <section className={"project"}>
       <h2 className="project-name">
-        <a href={pageLink} className={'link'}>{name}</a>
+        <a href={pageLink} className={"link"}>
+          {name}
+        </a>
       </h2>
       <p className="project-description">{description}</p>
       {gallery ? <ul className="project-gallery"></ul> : ""}
@@ -21,7 +23,9 @@ const PortfolioItem = (props) => {
             key={link.src}
             className={`project-link project-link--${link.type}`}
           >
-              <a className={'link'} href={link.src}>{link.name}</a>
+            <a className={"link"} href={link.src}>
+              {link.name}
+            </a>
           </li>
         ))}
       </ul>

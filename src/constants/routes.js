@@ -19,7 +19,7 @@ const pages = [
     name: "blog",
     src: "/blog",
     page: BlogPage,
-    quote: "Articles, ideas and thoughts from \nO. George",
+    quote: "Articles, ideas and thoughts from  O. George",
   },
 ];
 

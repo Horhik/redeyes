@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import asciiWord from "../../functions/ascii-word";
 import { Link } from "react-router-dom";
 import pages from "../../constants/routes";

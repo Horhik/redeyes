@@ -20,7 +20,6 @@ function App(props) {
                 pages.map(page => {
                     return(
                         <Route exact path={page.src} component={page.page} key={page.src}/>
-
                     )
                 })
             }

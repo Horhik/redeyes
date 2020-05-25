@@ -16,6 +16,7 @@ body {
 
 }
 a, .link{
+  transition: 0.3s;
   color: $link-color;
   text-decoration: none;
    &:hover, &:focus{
@@ -40,3 +41,4 @@ a, .link{
 @import "elements/recent-list";
 @import "elements/contacts";
 @import "elements/portfolio-project";
+@import "elements/blog-post-preview";

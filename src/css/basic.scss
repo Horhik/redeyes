@@ -15,7 +15,9 @@ body {
 
 
 }
- a{
+a, .link{
+  color: $link-color;
+  text-decoration: none;
    &:hover, &:focus{
      color: var(--pink)
    }
@@ -37,3 +39,4 @@ body {
 @import "elements/page-links";
 @import "elements/recent-list";
 @import "elements/contacts";
+@import "elements/portfolio-project";

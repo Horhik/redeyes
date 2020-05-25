@@ -7,13 +7,23 @@ const PortfolioItem = (props) => {
   const description = props.project.description;
   const gallery = props.project.gallery;
   const links = props.project.links;
+  const pageLink = props.project.links;
   return (
     <section className={"project"}>
-      <h2 className="project-name">{name}</h2>
+      <h2 className="project-name">
+        <a href={pageLink} className={'link'}>{name}</a>
+      </h2>
       <p className="project-description">{description}</p>
       {gallery ? <ul className="project-gallery"></ul> : ""}
       <ul className="project-links">
-        <li className="project-link">GitHub</li>
+        {links.map((link) => (
+          <li
+            key={link.src}
+            className={`project-link project-link--${link.type}`}
+          >
+              <a className={'link'} href={link.src}>{link.name}</a>
+          </li>
+        ))}
       </ul>
     </section>
   );
@@ -24,7 +34,7 @@ const PortfolioPage = (props) => {
     <div>
       <ul className="portfolio">
         {props.portfolio.map((project) => (
-          <li className={"portfolio-project"} key={project.name}>
+          <li key={project.name}>
             <PortfolioItem project={project} />
           </li>
         ))}

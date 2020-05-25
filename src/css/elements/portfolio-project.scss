@@ -1,0 +1,76 @@
+.portfolio{
+  list-style: none;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+
+}
+.project{
+  display: flex;
+  flex-direction: column;
+  padding: 26px;
+  box-shadow: 4px 4px 32px rgba(0, 0, 0, 0.34);
+  border-radius: 10px;
+  background: var(--background);
+  font-family: $main-font;
+  text-align: center;
+  margin: 20px 0;
+  max-width: 70vw;
+
+}
+.project-name{
+  color: $header-color;
+  margin: 0;
+  & a{
+    color: $header-color;
+    text-decoration: none;
+  }
+}
+
+.project-gallery{
+  list-style: none;
+  padding: 0;
+}
+
+.project-links{
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.project-link{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  vertical-align: center;
+ &::before{
+   width: 30px;
+   margin-right: 10px;
+ }
+  &--github{
+    &::before{
+      content: url("../../svg/github-icon.svg");
+    }
+  }
+  &--iphone{
+    &::before{
+      content: url("../../svg/appstore.svg");
+    }
+  }
+  &--android{
+    &::before{
+      content: url("../../svg/googleplay.svg");
+    }
+  }
+  &--app-page{
+    &::before{
+      content: url("../../svg/app-page.svg");
+    }
+  }
+}

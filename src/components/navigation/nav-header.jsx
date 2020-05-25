@@ -1,12 +1,8 @@
-import React from 'react'
-import {connect} from 'react-redux'
+import React from "react";
+import { connect } from "react-redux";
 
-const NavHeader = props => {
-    return (
-        <nav>
+const NavHeader = (props) => {
+  return <nav></nav>;
+};
 
-        </nav>
-    )
-}
-
-export default connect()(NavHeader)
+export default connect()(NavHeader);

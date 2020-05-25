@@ -5,6 +5,7 @@
   width: 300px;
   margin: 0 auto;
   font-family: Mononoki;
+  padding: 0;
 }
 
 .page-link{
@@ -13,7 +14,7 @@
   width: 100px;
   transition: 0.3s;
   & a{
-    color: var(--cyan);
+    color: $header-color;
     text-decoration: none;
     display: block;
     &:hover, &:focus{

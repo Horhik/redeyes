@@ -1,14 +1,28 @@
+import { SET_CURRENT_PAGE } from "../constants/routes";
+import HomePage from "../components/pages/homepage";
+
 const initialState = {
-    lang: 'en',
-    theme: 'dark',
-}
+  lang: "en",
+  theme: "dark",
+  currentPath: "/",
+  currentPage: HomePage,
+  currentPageName: "horhik.dev",
+  pageQuote: "O. George’s site",
+};
 
-const clientReducer = (state = initialState, action) =>  {
-    switch (action.type) {
-        default:
-            return state
+const clientReducer = (state = initialState, action) => {
+  switch (action.type) {
+    case SET_CURRENT_PAGE:
+      return {
+        ...state,
+        currentPath: action.page.src,
+        currentPage: action.page.page,
+        currentPageName: action.page.name,
+        pageQuote: action.page.quote,
+      };
+    default:
+      return state;
+  }
+};
 
-    }
-}
-
-export default clientReducer
+export default clientReducer;

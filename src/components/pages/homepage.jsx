@@ -1,15 +1,14 @@
-import React from 'react'
-import Logo from "../elements/logo";
-import PageLinks from "../elements/page-links";
+import React from "react";
 import Recent from "../elements/homepage/recent-list";
+import { connect } from "react-redux";
+import Contacts from "../elements/contacts";
 
 const HomePage = () => {
-    return (
-        <div>
-           <Logo child={"O. George's site"}></Logo>
-            <PageLinks/>
-            <Recent/>
-        </div>
-    )
-}
-export default HomePage
+  return (
+    <div>
+      <Recent />
+      <Contacts />
+    </div>
+  );
+};
+export default connect((state) => ({}), {})(HomePage);

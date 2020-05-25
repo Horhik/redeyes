@@ -532,4 +532,4 @@ on the TOIlet website at http://caca.zoy.org/wiki/toilet
 ░█▀█▀▀@
 ░█░█▀▀@
 ░▀▀▀▀▀@@
-`
+`;

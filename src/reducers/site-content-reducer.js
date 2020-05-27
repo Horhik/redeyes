@@ -10,7 +10,7 @@ const initialState = {
         pageLink: '',
       links: [
         {
-          name: 'GitHub',
+          name: 'GitHub page',
           type: GITHUB,
           src: 'https://github.com/horhik/ankilan'
         },
@@ -29,13 +29,13 @@ const initialState = {
         pageLink: '',
       links: [
         {
-          name: 'GitHub',
+          name: 'GitHub page',
           type: GITHUB,
           src: 'https://github.com/horhik/snake'
         },
 
         {
-          name: 'Game',
+          name: 'Game page',
           type: APP,
           src: 'https://smoothsnake.netlify.app',
           // logo: 'https://raw.githubusercontent.com/Horhik/tasquare/master/src/svg/logo.svg'
@@ -50,12 +50,12 @@ const initialState = {
         pageLink: '',
       links: [
         {
-          name: 'GitHub',
+          name: 'GitHub page',
           type: GITHUB,
           src: 'https://github.com/horhik/tasquare'
         },
         {
-          name: 'App',
+          name: 'App page',
           type: APP,
           src: 'https://tasquare.netlify.app',
           logo: 'https://raw.githubusercontent.com/Horhik/tasquare/master/src/svg/logo.svg'

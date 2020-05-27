@@ -22,7 +22,7 @@ const BlogArticlePreview = (props) => {
 const BlogPage = (props) => {
   return (
     <div>
-        <h3 className={'nothing'} >There's nothing here yet</h3>
+        <h2 className={'nothing'} >There's nothing here yet</h2>
 
       {/*<ul className={"blog-posts"}>*/}
       {/*  {props.posts.map((post, index) => {*/}

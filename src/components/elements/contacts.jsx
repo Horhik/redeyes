@@ -4,15 +4,15 @@ import asciiWord from "../../functions/ascii-word";
 const links = [
   {
     site: "github",
-    url: "https://github.com",
+    url: "https://github.com/horhik",
   },
   {
     site: "twitter",
-    url: "https://twitter.com",
+    url: "https://twitter.com/HORHl",
   },
   {
-    site: "telegram",
-    url: "https://telegram.org",
+    site: "mail",
+    mail: "horhik@tuta.io",
   },
 ];
 
@@ -29,7 +29,11 @@ const Contacts = (props) => {
     <ul className={"contacts"}>
       {links.map((link) => (
         <li key={link.url}>
+          {link.mail ? 
+          <SocialLink url={`mailto:${link.mail}`} site={link.site} />
+          :
           <SocialLink url={link.url} site={link.site} />
+          }
         </li>
       ))}
     </ul>

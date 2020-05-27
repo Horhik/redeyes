@@ -13,7 +13,7 @@ import { connect } from "react-redux";
 const RecentBlock = (props) => {
   return (
     <a
-      href="#test"
+      href={props.link}
       className={`recent-block recent-block--${props.pos || "right"}`}
     >
       {props.header || "no content loaded..."}

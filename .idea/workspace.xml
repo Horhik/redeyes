@@ -11,15 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b1db503-490b-4f06-812d-6b9b94d2764a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/css/elements/blog-post-preview.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/svg/stopwatch.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/svg/watch.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/elements/homepage/recent-block.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/elements/homepage/recent-block.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/elements/homepage/recent-list.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/elements/homepage/recent-list.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/pages/blog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/blog.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/basic.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/basic.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/░█░█░░░░█▀▄ ░█▀█░░░░█░█ ░▀░▀░▀░░▀▀░.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/portfolio.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/portfolio.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/elements/blog-post-preview.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/elements/blog-post-preview.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/elements/portfolio-project.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/elements/portfolio-project.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reducers/site-content-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/site-content-reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +82,8 @@
       <workItem from="1589583447607" duration="5148000" />
       <workItem from="1590125952856" duration="14140000" />
       <workItem from="1590359928462" duration="4688000" />
-      <workItem from="1590372993882" duration="18882000" />
+      <workItem from="1590372993882" duration="19190000" />
+      <workItem from="1590539117687" duration="2719000" />
     </task>
     <servers />
   </component>
@@ -143,10 +142,11 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="391" y="182" key="SettingsEditor/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1590389869850" />
-    <state x="538" y="-170" width="774" height="774" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1590396787684">
+    <state x="534" y="-210" width="774" height="774" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1590540625923">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="538" y="-170" width="774" height="774" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1590396787684" />
+    <state x="534" y="-210" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1590540625923" />
     <state x="1710" y="11" width="99" height="1060" key="dock-window-1" timestamp="1590395037402">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

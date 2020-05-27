@@ -1,50 +1,64 @@
-import {APP_PAGE, GITHUB} from "../constants/link-types";
+import {APP, APP_PAGE, GITHUB} from "../constants/link-types";
 
 const initialState = {
   recentNews: ["nope"],
   portfolioItems: [
     {
       name: 'AnkiLan',
-      description: 'The app created for pushing cards with english words and their definitions to AnkiLan',
+      description: 'The app created for pushing cards with english words and their definitions to Anki',
       gallery: [],
         pageLink: '',
       links: [
         {
           name: 'GitHub',
           type: GITHUB,
-          src: 'https://github.com'
+          src: 'https://github.com/horhik/ankilan'
         },
-        {
+        /*{
           name: 'App page',
           type: APP_PAGE,
           src: 'https://github.com'
         },
+        */
       ]
     },
     {
-      name: 'Time garden',
-      description: 'The Forest like app for desktop and mobile',
+      name: 'Snake Game',
+      description: 'Just the "Snake" game with smooth graphics',
       gallery: [],
         pageLink: '',
       links: [
         {
           name: 'GitHub',
           type: GITHUB,
-          src: 'https://github.com'
+          src: 'https://github.com/horhik/snake'
+        },
+
+        {
+          name: 'Game',
+          type: APP,
+          src: 'https://smoothsnake.netlify.app',
+          // logo: 'https://raw.githubusercontent.com/Horhik/tasquare/master/src/svg/logo.svg'
         }
 
       ]
     },
     {
-      name: 'Time garden',
-      description: 'The Forest like app for desktop and mobile',
+      name: 'TaSquare',
+      description: 'TODO app for mobile',
       gallery: [],
         pageLink: '',
       links: [
         {
           name: 'GitHub',
           type: GITHUB,
-          src: 'https://github.com'
+          src: 'https://github.com/horhik/tasquare'
+        },
+        {
+          name: 'App',
+          type: APP,
+          src: 'https://tasquare.netlify.app',
+          logo: 'https://raw.githubusercontent.com/Horhik/tasquare/master/src/svg/logo.svg'
         }
 
       ]

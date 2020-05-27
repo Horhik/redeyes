@@ -22,19 +22,21 @@ const BlogArticlePreview = (props) => {
 const BlogPage = (props) => {
   return (
     <div>
-      <ul className={"blog-posts"}>
-        {props.posts.map((post, index) => {
-          const pos = index % 2 === 0 ? "left" : "right";
-          return (
-            <li
-              className={`recent-block recent-block--${pos} blog-posts__item `}
-              key={post.description}
-            >
-              <BlogArticlePreview post={post} pos={pos}/>
-            </li>
-          );
-        })}
-      </ul>
+        <h3 className={'nothing'} >There's nothing here yet</h3>
+
+      {/*<ul className={"blog-posts"}>*/}
+      {/*  {props.posts.map((post, index) => {*/}
+      {/*    const pos = index % 2 === 0 ? "left" : "right";*/}
+      {/*    return (*/}
+      {/*      <li*/}
+      {/*        className={`recent-block recent-block--${pos} blog-posts__item `}*/}
+      {/*        key={post.description}*/}
+      {/*      >*/}
+      {/*        <BlogArticlePreview post={post} pos={pos}/>*/}
+      {/*      </li>*/}
+      {/*    );*/}
+      {/*  })}*/}
+      {/*</ul>*/}
       <Contacts />
     </div>
   );

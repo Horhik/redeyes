@@ -1,6 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import Contacts from "../elements/contacts";
+import {APP} from "../../constants/link-types";
 
 const PortfolioItem = (props) => {
   const name = props.project.name;
@@ -23,6 +24,8 @@ const PortfolioItem = (props) => {
             key={link.src}
             className={`project-link project-link--${link.type}`}
           >
+              {link.type === APP && link.logo ? <img className={'project-link__logo'} src={link.logo} alt="TaSquare logo"/>: ''}
+
             <a className={"link"} href={link.src}>
               {link.name}
             </a>

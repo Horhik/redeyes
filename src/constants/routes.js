@@ -2,7 +2,7 @@
 import BlogPage from "../components/pages/blog";
 import PortfolioPage from "../components/pages/portfolio";
 import HomePage from "../components/pages/homepage";
-import {DEFAULT_DOMAIN} from '../constants/link-types'
+import { DEFAULT_DOMAIN } from "../constants/link-types";
 
 const pages = [
   {

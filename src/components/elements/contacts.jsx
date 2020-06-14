@@ -29,11 +29,11 @@ const Contacts = (props) => {
     <ul className={"contacts"}>
       {links.map((link) => (
         <li key={link.url}>
-          {link.mail ? 
-          <SocialLink url={`mailto:${link.mail}`} site={link.site} />
-          :
-          <SocialLink url={link.url} site={link.site} />
-          }
+          {link.mail ? (
+            <SocialLink url={`mailto:${link.mail}`} site={link.site} />
+          ) : (
+            <SocialLink url={link.url} site={link.site} />
+          )}
         </li>
       ))}
     </ul>

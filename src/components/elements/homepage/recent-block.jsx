@@ -1,5 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 /*
  * props: {
@@ -12,12 +13,13 @@ import { connect } from "react-redux";
 
 const RecentBlock = (props) => {
   return (
-    <a
-      href={props.link}
-      className={`recent-block recent-block--${props.pos || "right"}`}
+    <Link
+      to={props.src}
+      className={`recent-block recent-block--${props.pos === ('github') ? 'right' :  "left"}`}
     >
       {props.header || "no content loaded..."}
-    </a>
+    </Link>
+
   );
 };
 

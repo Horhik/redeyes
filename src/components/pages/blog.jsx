@@ -4,7 +4,7 @@ import Contacts from "../elements/contacts";
 
 const BlogArticlePreview = (props) => {
   return (
-    <div className={ `blog-posts__item--${props.pos}`}>
+    <div className={`blog-posts__item--${props.pos}`}>
       <h2 className={"blog-post__header"}>
         <a href={"#article"} className={"link"}>
           {props.post.name}
@@ -12,8 +12,12 @@ const BlogArticlePreview = (props) => {
       </h2>
       <p>{props.post.description}</p>
       <ul className={"blog-info__list"}>
-        <li className={"blog-info__item  blog-info__item--created"}>{props.post.created}</li>
-        <li className={"blog-info__item  blog-info__item--reading-time"}>{props.post.readingTime}</li>
+        <li className={"blog-info__item  blog-info__item--created"}>
+          {props.post.created}
+        </li>
+        <li className={"blog-info__item  blog-info__item--reading-time"}>
+          {props.post.readingTime}
+        </li>
       </ul>
     </div>
   );
@@ -22,7 +26,7 @@ const BlogArticlePreview = (props) => {
 const BlogPage = (props) => {
   return (
     <div>
-        <h2 className={'nothing'} >There's nothing here yet</h2>
+      <h2 className={"nothing"}>There's nothing here yet</h2>
 
       {/*<ul className={"blog-posts"}>*/}
       {/*  {props.posts.map((post, index) => {*/}

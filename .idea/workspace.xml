@@ -11,7 +11,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b1db503-490b-4f06-812d-6b9b94d2764a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/logo192_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/elements/about.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/elements/about.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/elements/contacts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/elements/contacts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/elements/homepage/recent-block.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/elements/homepage/recent-block.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/elements/homepage/recent-list.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/elements/homepage/recent-list.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/blog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/blog.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/portfolio.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/portfolio.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/link-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/link-types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/client-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/client-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/site-content-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/site-content-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,26 +54,27 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="run.prettier.on.save" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/src/reducers" />
-      <recent name="$PROJECT_DIR$/src/components/elements/homepage" />
-      <recent name="$PROJECT_DIR$/src/ascii" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components/navigation" />
       <recent name="$PROJECT_DIR$/src/components/elements/homepage" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src/reducers" />
+      <recent name="$PROJECT_DIR$/src/components/elements/homepage" />
+      <recent name="$PROJECT_DIR$/src/ascii" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -77,6 +96,12 @@
       <workItem from="1590359928462" duration="4688000" />
       <workItem from="1590372993882" duration="19190000" />
       <workItem from="1590539117687" duration="5804000" />
+      <workItem from="1591990547157" duration="817000" />
+      <workItem from="1592031143821" duration="48000" />
+      <workItem from="1592033216416" duration="71000" />
+      <workItem from="1592033332932" duration="312000" />
+      <workItem from="1592033666352" duration="776000" />
+      <workItem from="1592131255026" duration="2989000" />
     </task>
     <servers />
   </component>
@@ -131,15 +156,17 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1918" height="298" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1589199973836" />
-    <state x="391" y="182" key="SettingsEditor" timestamp="1590389869850">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="1653" y="2" key="SettingsEditor" timestamp="1592033800617">
+      <screen x="1280" y="0" width="1920" height="1080" />
     </state>
     <state x="391" y="182" key="SettingsEditor/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1590389869850" />
-    <state x="534" y="-210" width="774" height="774" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1590540625923">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="1653" y="2" key="SettingsEditor/1280.0.1920.1080/0.0.1280.1024@1280.0.1920.1080" timestamp="1592033800617" />
+    <state x="1808" y="-270" width="774" height="774" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1592136178449">
+      <screen x="1280" y="0" width="1920" height="1080" />
     </state>
     <state x="538" y="-170" width="774" height="774" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1590396787684" />
     <state x="534" y="-210" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1590540625923" />
+    <state x="1808" y="-270" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1280.0.1920.1080/0.0.1280.1024@1280.0.1920.1080" timestamp="1592136178449" />
     <state x="1710" y="11" width="99" height="1060" key="dock-window-1" timestamp="1590395037402">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -288,9 +315,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="622" y="249" key="run.anything.popup/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1590363963127" />
-    <state x="623" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1590395597621">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="1903" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1592033634952">
+      <screen x="1280" y="0" width="1920" height="1080" />
     </state>
     <state x="623" y="240" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1590395597621" />
+    <state x="1903" y="240" width="672" height="678" key="search.everywhere.popup/1280.0.1920.1080/0.0.1280.1024@1280.0.1920.1080" timestamp="1592033634952" />
   </component>
 </project>

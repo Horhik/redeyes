@@ -1,6 +1,6 @@
 import { SET_CURRENT_PAGE } from "../constants/routes";
 import HomePage from "../components/pages/homepage";
-import {DEFAULT_DOMAIN} from "../constants/link-types"
+import { DEFAULT_DOMAIN } from "../constants/link-types";
 
 const initialState = {
   lang: "en",

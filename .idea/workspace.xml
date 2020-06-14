@@ -12,7 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4b1db503-490b-4f06-812d-6b9b94d2764a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/_redirects" beforeDir="false" afterPath="$PROJECT_DIR$/public/_redirects" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/client-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/client-reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +85,7 @@
       <workItem from="1592033216416" duration="71000" />
       <workItem from="1592033332932" duration="312000" />
       <workItem from="1592033666352" duration="776000" />
-      <workItem from="1592131255026" duration="3702000" />
+      <workItem from="1592131255026" duration="4624000" />
     </task>
     <servers />
   </component>
@@ -145,12 +146,12 @@
     </state>
     <state x="391" y="182" key="SettingsEditor/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1590389869850" />
     <state x="1653" y="2" key="SettingsEditor/1280.0.1920.1080/0.0.1280.1024@1280.0.1920.1080" timestamp="1592033800617" />
-    <state x="1804" y="-310" width="774" height="774" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1592137317686">
+    <state x="1802" y="-330" width="774" height="774" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1592137639716">
       <screen x="1280" y="0" width="1920" height="1080" />
     </state>
     <state x="538" y="-170" width="774" height="774" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1590396787684" />
     <state x="534" y="-210" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1590540625923" />
-    <state x="1804" y="-310" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1280.0.1920.1080/0.0.1280.1024@1280.0.1920.1080" timestamp="1592137317686" />
+    <state x="1802" y="-330" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1280.0.1920.1080/0.0.1280.1024@1280.0.1920.1080" timestamp="1592137639716" />
     <state x="1710" y="11" width="99" height="1060" key="dock-window-1" timestamp="1590395037402">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

@@ -14,6 +14,7 @@ const initialState = {
 const clientReducer = (state = initialState, action) => {
   switch (action.type) {
     case SET_CURRENT_PAGE:
+      console.log(action.page.src, "SWITCH")
       return {
         ...state,
         currentPath: action.page.src,

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="logo_source.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   inkscape:export-ydpi="101.67"
+   inkscape:export-xdpi="101.67"
+   inkscape:export-filename="/home/horhik/Pictures/icons/siteLogo.png"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 210 297"
+   height="297mm"
+   width="210mm">
+  <defs
+     id="defs2">
+    <rect
+       id="rect849"
+       height="42.032764"
+       width="55.861077"
+       y="181.22374"
+       x="157.3882" />
+    <rect
+       id="rect835"
+       height="103.7479"
+       width="127.15798"
+       y="110.29623"
+       x="53.174042" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-maximized="0"
+     inkscape:window-y="20"
+     inkscape:window-x="1280"
+     inkscape:window-height="1054"
+     inkscape:window-width="954"
+     inkscape:snap-global="true"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer2"
+     inkscape:document-units="mm"
+     inkscape:cy="475.70568"
+     inkscape:cx="486.03366"
+     inkscape:zoom="0.41387025"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <text
+       style="line-height:1.125;font-family:sans-serif;font-size:10.58333333px;white-space:pre;shape-inside:url(#rect835);"
+       id="text833"
+       xml:space="preserve" />
+    <text
+       style="line-height:1.125;font-family:sans-serif;font-size:10.58333333px;white-space:pre;shape-inside:url(#rect849);"
+       id="text847"
+       xml:space="preserve" />
+    <g
+       inkscape:export-ydpi="101.67"
+       inkscape:export-xdpi="101.67"
+       transform="translate(-6.665638,53.583117)"
+       id="g899">
+      <rect
+         rx="0"
+         style="fill:#282a36;fill-opacity:1;stroke-width:9.465;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect873"
+         width="102.57725"
+         height="129.46489"
+         x="59.264179"
+         y="46.933193"
+         transform="matrix(0,1,1,0,0,0)"
+         ry="18.287838" />
+      <rect
+         ry="0"
+         transform="matrix(0,1,1,0,0,0)"
+         y="46.933201"
+         x="26.202042"
+         height="129.46487"
+         width="63.873825"
+         id="rect873-6"
+         style="fill:#44475a;fill-opacity:1;stroke-width:9.46499;stroke-miterlimit:4;stroke-dasharray:none"
+         rx="0" />
+    </g>
+  </g>
+  <g
+     inkscape:label="Layer 2"
+     id="layer2"
+     inkscape:groupmode="layer">
+    <text
+       inkscape:export-ydpi="101.67"
+       inkscape:export-xdpi="101.67"
+       id="text841"
+       y="123.47272"
+       x="61.213528"
+       style="font-size:31.1912px;line-height:1.11;font-family:sans-serif;fill:#ffb86c;fill-opacity:1;stroke-width:0.77978"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'mononoki Nerd Font';-inkscape-font-specification:'mononoki Nerd Font';fill:#ffb86c;fill-opacity:1;stroke-width:0.77978"
+         y="123.47272"
+         x="61.213528"
+         id="tspan839"
+         sodipodi:role="line">░█░█░</tspan><tspan
+         id="tspan843"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'mononoki Nerd Font';-inkscape-font-specification:'mononoki Nerd Font';fill:#ffb86c;fill-opacity:1;stroke-width:0.77978"
+         y="158.39955"
+         x="61.213528"
+         sodipodi:role="line">░█▀█░</tspan><tspan
+         id="tspan845"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'mononoki Nerd Font';-inkscape-font-specification:'mononoki Nerd Font';fill:#ffb86c;fill-opacity:1;stroke-width:0.77978"
+         y="193.32639"
+         x="61.213528"
+         sodipodi:role="line">░▀░▀░</tspan></text>
+    <text
+       id="text862"
+       y="152.56528"
+       x="104.05653"
+       style="font-size:10.5833px;line-height:1.125;font-family:sans-serif;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.264583"
+         y="152.56528"
+         x="104.05653"
+         id="tspan860"
+         sodipodi:role="line" /></text>
+    <text
+       id="text871"
+       y="139.71835"
+       x="164.71696"
+       style="font-size:10.5833px;line-height:1.125;font-family:sans-serif;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.264583"
+         y="139.71835"
+         x="164.71696"
+         id="tspan869"
+         sodipodi:role="line"></tspan></text>
+  </g>
+</svg>

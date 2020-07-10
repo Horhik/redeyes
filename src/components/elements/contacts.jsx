@@ -12,7 +12,7 @@ const links = [
   },
   {
     site: "mail",
-    mail: "horhik@tuta.io",
+    mail: "horhik@protonmail.com",
   },
 ];
 

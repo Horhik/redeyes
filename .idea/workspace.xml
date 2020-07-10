@@ -11,9 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b1db503-490b-4f06-812d-6b9b94d2764a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/logo_source.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/client-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/client-reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +21,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupnpm">
+      <scroll-view-position x="0" y="0" />
+    </layout>
   </component>
   <component name="ProjectId" id="1bkf3eRMu09dFeQzwAvqEBCHKtx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -85,7 +89,8 @@
       <workItem from="1592033216416" duration="71000" />
       <workItem from="1592033332932" duration="312000" />
       <workItem from="1592033666352" duration="776000" />
-      <workItem from="1592131255026" duration="4624000" />
+      <workItem from="1592131255026" duration="5246000" />
+      <workItem from="1593730036206" duration="642000" />
     </task>
     <servers />
   </component>
@@ -296,6 +301,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="653" y="275" width="614" height="512" key="find.popup/0.0.1920.1080/1920.0.1280.1024@0.0.1920.1080" timestamp="1590385200980" />
+    <state x="227" y="403" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup" timestamp="1593730131352">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="227" y="403" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup/0.1080.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1593730131352" />
     <state x="622" y="249" key="run.anything.popup" timestamp="1590363963127">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

@@ -13,7 +13,7 @@ body {
   box-shadow: 0px -30px 20px rgba(0, 0, 0, 0.5);
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  padding:10px;
+  padding:10px 0;
 
 
 
@@ -37,8 +37,6 @@ a, .link{
   font-size: 2em;
 }
 
-.App {
-}
 
 @import "logo";
 @import "elements/page-links";

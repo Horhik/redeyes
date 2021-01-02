@@ -23,7 +23,7 @@
   border-radius: 10px;
   word-break: break-word;
 
-  display: flex;
+  display: block;
   align-items: center;
   align-content: center;
 
@@ -73,5 +73,10 @@
       padding-right: 0;
     }
   }
+}
+.recent-block__time{
+  float: right;
+  font-size: 12px;
+  color: var(--purple);
 }
 

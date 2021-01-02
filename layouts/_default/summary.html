@@ -1,13 +1,9 @@
-<article class="article">
-	<h1 class="h1"><a class="article__link" href="{{ .Permalink }}">{{ .Title }}</a></h1>
-	<time>{{ .Date.Format "02.01.2006 15:04" }}</time>
+<article class="recent-block recent-block--right">
+	<div>
+		<a class="article__link" href="{{ .Permalink }}">{{ .Title }}</a>
+	</div>
+	<time class="recent-block__time">{{ .Date.Format "02.01.2006 15:04" }}</time>
 	{{ range .Params.tags }}
 	<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
 	{{ end }}
-	<div>
-		{{ .Summary }}
-		{{ if .Truncated }}
-			<a href="{{ .Permalink }}">Read more...</a>
-		{{ end }}
-	</div>
 </article>

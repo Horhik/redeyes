@@ -1,12 +1,15 @@
 <aside>
-	<div>
-		<div>
-			<h3>LATEST POSTS</h3>
+	<div class="recent">
+		<div >
+			<h2  class="h1 recent-header">LATEST POSTS</h3>
 		</div>
 		<div>
-			<ul>
+			<ul class="recent-list">
 				{{ range first 5 (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
-				<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+				<li class="recent-block recent-block--right">
+					<a  href="{{ .RelPermalink }}">{{ .Title }}</a> <br>
+					<time class="recent-block__time">{{ .Date.Format "02.01.2006" }}</time>
+				</li>
 				{{ end }}
 			</ul>
 		</div>

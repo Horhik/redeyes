@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>{{ .Title }}</title>
 	{{ $style := resources.Get "css/basic.scss"  }}
-	{{ $style = $style | toCSS | minify | fingerprint }}
+	{{ $style = $style | toCSS  }}
 
 
 	

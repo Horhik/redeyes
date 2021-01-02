@@ -1,4 +1,4 @@
-baseURL = "http://site.horhik.xyz/"
+baseURL = "https://site.horhik.xyz/"
 languageCode = "en-us"
 title = "Horhik.xyz"
 summaryLength=10

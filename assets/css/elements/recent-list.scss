@@ -1,0 +1,77 @@
+.recent{
+  margin: 0 auto;
+}
+.recent-header{
+  text-align: center;
+}
+
+.recent-list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.recent-block{
+
+  text-decoration: none;
+  font-family: Mononoki, monospace;
+  font-size: 1.3em;
+
+  box-shadow: 4px 4px 32px rgba(0, 0, 0, 0.34);
+  background: var(--background);
+  border-radius: 10px;
+  word-break: break-word;
+
+  display: flex;
+  align-items: center;
+  align-content: center;
+
+  margin: 20px 0;
+  padding:10px 20px;
+  width: max-content;
+  max-width: 80vw;
+  color: var(--cyan);
+
+  transition: 0.2s;
+
+  &--left{
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    &::before {
+      content: '📜';
+      margin: 5px;
+      display: flex;
+      align-items: center;
+      align-content: center;
+    }  margin-right: auto;
+    &:hover, &:focus{
+      padding-left: 40px;
+    }
+    &:active{
+      padding-left: 0;
+    }
+  }
+
+  &--right{
+    &::after {
+      content: url("../../../src/svg/github-icon.svg");
+      margin: 5px;
+      display: flex;
+      align-items: center;
+      align-content: center;
+
+    }
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    margin-left: auto;
+
+    &:hover, &:focus{
+      padding-right: 40px;
+    }
+    &:active{
+      padding-right: 0;
+    }
+  }
+}
+

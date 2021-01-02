@@ -1,0 +1,29 @@
+
+.logo--wrapper {
+  display: grid;
+  font-family: Mononoki, 'Fira Code',monospace, Ubuntu;
+}
+.logo-quote {
+  text-align: center;
+  color: var(--foreground);
+  margin: 10px auto 28px;
+  max-width: 300px;
+
+}
+.logo{
+  margin: 0 auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  font-family: Mononoki, 'Fira Code',monospace, Ubuntu;
+}
+
+.toilet-logo{
+  color: var(--orange);
+  font-size: 0.9em;
+  line-height: $ascii-line-height;
+  margin: 0;
+  font-family: Mononoki, 'Fira Code',monospace, Ubuntu;
+}

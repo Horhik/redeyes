@@ -1,0 +1,24 @@
+.page-list{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin: 0 auto;
+  font-family: Mononoki;
+  padding: 0;
+}
+
+.page-link{
+  font-size: 0.4em;
+  line-height: $ascii-line-height;
+  width: 100px;
+  transition: 0.3s;
+  & a{
+    color: $header-color;
+    text-decoration: none;
+    display: block;
+    &:hover, &:focus{
+      color: var(--pink)
+    }
+  }
+}

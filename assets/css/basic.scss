@@ -37,6 +37,9 @@ a, .link{
   font-size: 2em;
 }
 
+code{
+  font-family: $main-font;
+}
 
 @import "logo";
 @import "elements/page-links";
@@ -44,3 +47,4 @@ a, .link{
 @import "elements/contacts";
 @import "elements/portfolio-project";
 @import "elements/blog-post-preview";
+@import "elements/blog-post";

@@ -54,6 +54,9 @@ a, .link {
   font-family: 'Mononoki Bold', 'Fira Code SemiBold';
   font-size: 2em; }
 
+code {
+  font-family: "Mononoki", monospace; }
+
 .logo--wrapper {
   display: grid;
   font-family: Mononoki, 'Fira Code',monospace, Ubuntu; }
@@ -289,3 +292,23 @@ a, .link {
   .blog-info__item--reading-time::before {
     content: url("../../svg/stopwatch.svg");
     margin-right: 10px; }
+
+.blog-header {
+  color: var(--green);
+  font-family: "Mononoki", monospace;
+  font-size: 2em;
+  display: inline-flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto; }
+
+.blog-post {
+  padding: 0px 30px;
+  font-size: 22px;
+  font-family: Ubuntu; }
+  .blog-post time {
+    font-family: "Mononoki", monospace;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 0.9em; }

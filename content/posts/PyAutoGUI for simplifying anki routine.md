@@ -7,8 +7,7 @@ date: 2021-01-21T10:26:19+03:00
 I had been adding some cards to Anki. 
 It was lowercase word and word with stress in russian. like *торты тОрты.* 
 
-I'm lazy and i wrote two simple scripts. All what i have to do is input words with stress into a file.
-
+I'm lazy and i wrote two simple scripts. All what i have to do is input words with stress into a file.  
 First script for creating file with list of sequence of word with stress and lowercase word
 
 ```python
@@ -19,10 +18,9 @@ for ind, line in enumerate(lines):
     print(line.lower(), " ", line)
 ```
 
-After, i just pushed output to file and opened it it Emacs.
+After, i just pushed output to file and opened it it Emacs.  
 
-Second script automatizing adding cards to A**nki**. 
-
+Second script automatizing adding cards to A**nki**.  
 I split my window by **Anki** "add card" window and **Emacs**. As i use `evil` mode in Emacs, script looks like that:
 
 ```python
@@ -47,6 +45,6 @@ while(True):
     pyautogui.press("space")         # pressing submit button
 ```
 
-`while true` was my mistake. I launched script in terminal, with `sleep` 3 seconds before. 
-But i couldn't shut script down without any strange effect when i opening not only 2 windows in my Window Manager. 
-Some strange things happen before I cached terminal and pressed `Ctrl+C`
+`while(true)` was my mistake. I launched script in terminal, with `sleep` 3 seconds before.  
+But i couldn't shut script down without any strange effect when i opening not only 2 windows in my Window Manager.  
+Some strange things happen before I cached terminal and pressed `Ctrl+C`  

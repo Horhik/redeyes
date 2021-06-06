@@ -18,11 +18,14 @@
 		{{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
 	{{- end }}
 </head>
+
+{{ partial "header" . }}
 <main id="main">
   <div>
-  <h1 id="title">{{ .Title }}</h1>
+  <h1 id="title"  class="h1 recent-header">{{ .Title }}</h1>
   {{ range .Pages }}
     {{ .Render "summary"}}
   {{ end }}
   </div>
 </main>
+{{ partial "footer" . }}

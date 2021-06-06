@@ -24,3 +24,9 @@ url('../fonts/mononoki-Regular.ttf') format('truetype'),
 url('../fonts/mononoki-Regular.woff2') format('woff2'),
 url('../fonts/mononoki-Regular.woff') format('woff');
 }
+
+
+@font-face {
+  font-family: 'Twemoji';
+src: url('../fonts/Twemoji.ttf') format('truetype');
+}

@@ -2,17 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://site.horhik.xyz/</loc>
-    <lastmod>2021-01-21T10:26:19+03:00</lastmod>
-  </url><url>
     <loc>https://site.horhik.xyz/posts/</loc>
-    <lastmod>2021-01-21T10:26:19+03:00</lastmod>
+    <lastmod>2021-06-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://site.horhik.xyz/</loc>
+    <lastmod>2021-06-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://site.horhik.xyz/portfolio/</loc>
+    <lastmod>2021-06-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://site.horhik.xyz/portfolio/hole/</loc>
+    <lastmod>2021-05-01T00:00:00+03:00</lastmod>
   </url><url>
     <loc>https://site.horhik.xyz/posts/pyautogui-for-simplifying-anki-routine/</loc>
     <lastmod>2021-01-21T10:26:19+03:00</lastmod>
   </url><url>
-    <loc>https://site.horhik.xyz/posts/second-test-post/</loc>
-    <lastmod>2021-01-03T01:24:34+02:00</lastmod>
+    <loc>https://site.horhik.xyz/portfolio/ankilan/</loc>
+    <lastmod>2020-05-01T00:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://site.horhik.xyz/portfolio/tasquare/</loc>
+    <lastmod>2020-01-01T00:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://site.horhik.xyz/portfolio/snake/</loc>
+    <lastmod>2019-11-01T00:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://site.horhik.xyz/home/</loc>
+    <priority>0</priority>
   </url><url>
     <loc>https://site.horhik.xyz/categories/</loc>
   </url><url>

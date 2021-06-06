@@ -3,7 +3,7 @@
 		<a class="article__link" href="{{ .Permalink }}">{{ .Title }}</a>
 	</div>
 	<time class="recent-block__time">{{ .Date.Format "02.01.2006 15:04" }}</time>
-	{{ range .Params.tags }}
-	<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
-	{{ end }}
+	<!-- {{ range .Params.tags }} -->
+	<!-- <\!-- <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> -\-> -->
+	<!-- {{ end }} -->
 </article>

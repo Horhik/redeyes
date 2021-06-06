@@ -16,7 +16,8 @@ summaryLength=10
     noClasses = true
     style = "fruity"
     tabWidth = 2
-
+[markup.goldmark.renderer]
+	unsafe= true
 
 [[menu.social]]
   name = "Twitter"

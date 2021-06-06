@@ -46,6 +46,9 @@ p code, quote code, q code{
   padding: 0 6px;
 }
 
+img {
+    width: 100%;
+}
 @import "logo";
 @import "elements/page-links";
 @import "elements/recent-list";

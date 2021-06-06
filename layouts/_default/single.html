@@ -6,15 +6,15 @@
 			<div>
 				{{ .Content }}
 			</div>
-			{{ with .Params.tags }}
-			<div>
-				<ul id="tags">
-					{{ range . }}
-					<li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
-					{{ end }}
-				</ul>
-			</div>
-			{{ end }}
+			<!-- {{ with .Params.tags }} -->
+			<!-- <div> -->
+			<!-- 	<ul id="tags"> -->
+			<!-- 		{{ range . }} -->
+			<!-- 		<li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li> -->
+			<!-- 		{{ end }} -->
+			<!-- 	</ul> -->
+			<!-- </div> -->
+			<!-- {{ end }} -->
 			{{ with .Site.DisqusShortname }}
 			<div>
 				{{ template "_internal/disqus.html" . }}

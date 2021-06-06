@@ -16,6 +16,7 @@
 }
 */
 /* Gruvbox theme */
+@import url("https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 :root {
   --background: #282828 ;
   --comment: #458588 ;
@@ -81,6 +82,9 @@ p code, quote code, q code {
   color: var(--cyan);
   border-radius: 3px;
   padding: 0 6px; }
+
+img {
+  width: 100%; }
 
 .logo--wrapper {
   display: grid;
@@ -333,19 +337,20 @@ p code, quote code, q code {
 
 .blog-header {
   color: var(--green);
-  font-family: "Mononoki", "Twemoji", monospace;
+  font-family: "Mononoki Bold", "Twitter Color Emoji", "Twemoji", sans-serif;
   font-size: 2em;
   display: inline-flex;
   justify-content: center;
   text-align: center;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-top: 32px; }
 
 .blog-post {
   padding: 0px 30px;
   font-size: 22px;
   font-family: Ubuntu; }
   .blog-post time {
-    font-family: "Mononoki", "Twemoji", monospace;
+    font-family: "Cuprum", "Mononoki", "Twemoji", monospace;
     display: flex;
     align-content: center;
     justify-content: center;

@@ -1,0 +1,97 @@
+{
+  "main": {
+    "id": "cff797892302acf3",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b8b6fab2d3ff4a9",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "content/portfolio/Snake.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d289b0a88f9473dc",
+    "type": "split",
+    "children": [
+      {
+        "id": "917ad6055d9b702c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "27d5bbbb56d13c3f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "f59f8c4e127a9cbf",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e8413990fdd4f098",
+    "type": "split",
+    "children": [
+      {
+        "id": "5c222fe5f229e203",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "91d89a62fd6b5ea1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "content/portfolio/Snake.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "5b8b6fab2d3ff4a9",
+  "lastOpenFiles": [
+    "content/portfolio/Snake.md",
+    "content/portfolio/Hole.md",
+    "content/portfolio/AnkiLan.md",
+    "content/portfolio/snake/snake-desktop 1.png",
+    "content/portfolio/Pasted image 20210606223013.png"
+  ]
+}

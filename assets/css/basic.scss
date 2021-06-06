@@ -37,8 +37,13 @@ a, .link{
   font-size: 2em;
 }
 
-code{
+// Highlighting one line code (which uses ` not ```)
+p code, quote code, q code{
   font-family: $main-font;
+  background: var(--selection);
+  color: var(--cyan);
+  border-radius: 3px;
+  padding: 0 6px;
 }
 
 @import "logo";

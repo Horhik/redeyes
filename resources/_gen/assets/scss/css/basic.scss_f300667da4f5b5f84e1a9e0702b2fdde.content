@@ -1,4 +1,6 @@
 @charset "UTF-8";
+/* Dracula theme */
+/*
 :root {
   --background: #282A36 ;
   --comment: #6272A4 ;
@@ -10,6 +12,21 @@
   --pink: #FF79C6 ;
   --purple: #BD93F9 ;
   --red: #FF5555 ;
+  --yellow: #F1FA8C;
+}
+*/
+/* Gruvbox theme */
+:root {
+  --background: #282828 ;
+  --comment: #458588 ;
+  --selection: #665c54 ;
+  --foreground: #ebdbb2 ;
+  --cyan: #83a598 ;
+  --orange: #fe8019;
+  --green: #98971a ;
+  --pink: #d3869b ;
+  --purple: #b16286 ;
+  --red: #cc241d ;
   --yellow: #F1FA8C; }
 
 @font-face {
@@ -54,8 +71,12 @@ a, .link {
   font-family: 'Mononoki Bold', 'Fira Code SemiBold';
   font-size: 2em; }
 
-code {
-  font-family: "Mononoki", monospace; }
+p code, quote code, q code {
+  font-family: "Mononoki", monospace;
+  background: var(--selection);
+  color: var(--cyan);
+  border-radius: 3px;
+  padding: 0 6px; }
 
 .logo--wrapper {
   display: grid;

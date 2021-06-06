@@ -1,1 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://site.horhik.xyz/</loc><lastmod>2021-01-21T10:26:19+03:00</lastmod></url><url><loc>https://site.horhik.xyz/posts/</loc><lastmod>2021-01-21T10:26:19+03:00</lastmod></url><url><loc>https://site.horhik.xyz/posts/pyautogui-for-simplifying-anki-routine/</loc><lastmod>2021-01-21T10:26:19+03:00</lastmod></url><url><loc>https://site.horhik.xyz/posts/second-test-post/</loc><lastmod>2021-01-03T01:24:34+02:00</lastmod></url><url><loc>https://site.horhik.xyz/categories/</loc></url><url><loc>https://site.horhik.xyz/tags/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://site.horhik.xyz/</loc>
+    <lastmod>2021-01-21T10:26:19+03:00</lastmod>
+  </url><url>
+    <loc>https://site.horhik.xyz/posts/</loc>
+    <lastmod>2021-01-21T10:26:19+03:00</lastmod>
+  </url><url>
+    <loc>https://site.horhik.xyz/posts/pyautogui-for-simplifying-anki-routine/</loc>
+    <lastmod>2021-01-21T10:26:19+03:00</lastmod>
+  </url><url>
+    <loc>https://site.horhik.xyz/posts/second-test-post/</loc>
+    <lastmod>2021-01-03T01:24:34+02:00</lastmod>
+  </url><url>
+    <loc>https://site.horhik.xyz/categories/</loc>
+  </url><url>
+    <loc>https://site.horhik.xyz/tags/</loc>
+  </url>
+</urlset>

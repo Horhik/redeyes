@@ -1,76 +1,147 @@
-<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="IE=edge"><title>PyAutoGUI for simplifying anki routine</title><link rel=preconnect href=https://fonts.gstatic.com><link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,300&display=swap" rel=stylesheet><link rel=stylesheet href=https://site.horhik.xyz/css/basic.css></head><body><header class=logo--wrapper><a href=https://site.horhik.xyz/><pre class="logo toilet-logo">
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>PyAutoGUI for simplifying anki routine</title>
+	
+	
+
+
+	
+	
+	
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://site.horhik.xyz/css/basic.css">
+
+	
+</head>
+<body>
+	<header class="logo--wrapper">
+	<a href="https://site.horhik.xyz/"><pre class="logo toilet-logo">
 ░█░█░█▀█░█▀▄░█░█░▀█▀░█░█░░░░█░█░█░█░▀▀█
 ░█▀█░█░█░█▀▄░█▀█░░█░░█▀▄░░░░▄▀▄░░█░░▄▀░
-░▀░▀░▀▀▀░▀░▀░▀░▀░▀▀▀░▀░▀░▀░░▀░▀░░▀░░▀▀▀</pre></a><span class=logo-quote>O. George’s site</span></header><main><article class=blog-post><h1 class=blog-header>PyAutoGUI for simplifying anki routine</h1><sub><small><time>21.01.2021 10:26</time></small></sub><div><p>I had been adding some cards to Anki.
-It was lowercase word and word with stress in russian. like <em>торты тОрты.</em></p><p>I&rsquo;m lazy and i wrote two simple scripts. All what i have to do is input words with stress into a file.</p><p>First script for creating file with list of sequence of word with stress and lowercase word</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">2
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">3
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">4
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">5
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-python data-lang=python><span style=color:#ff79c6>import</span> os
-f <span style=color:#ff79c6>=</span> <span style=color:#8be9fd;font-style:italic>open</span>(<span style=color:#f1fa8c>&#34;/home/horhik/text.txt&#34;</span>, <span style=color:#f1fa8c>&#39;r+&#39;</span>)
-lines <span style=color:#ff79c6>=</span> f<span style=color:#ff79c6>.</span>readlines()
-<span style=color:#ff79c6>for</span> ind, line <span style=color:#ff79c6>in</span> <span style=color:#8be9fd;font-style:italic>enumerate</span>(lines):
-    <span style=color:#ff79c6>print</span>(line<span style=color:#ff79c6>.</span>lower(), <span style=color:#f1fa8c>&#34; &#34;</span>, line)
-</code></pre></td></tr></table></div></div><p>After, i just pushed output to file and opened it it Emacs.</p><p>Second script automatizing adding cards to A<strong>nki</strong>.</p><p>I split my window by <strong>Anki</strong> &ldquo;add card&rdquo; window and <strong>Emacs</strong>. As i use <code>evil</code> mode in Emacs, script looks like that:</p><div class=highlight><div style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 1
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 2
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 3
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 4
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 5
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 6
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 7
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 8
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f"> 9
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">10
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">11
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">12
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">13
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">14
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">15
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">16
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">17
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">18
-</span><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">19
-</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-python data-lang=python><span style=color:#ff79c6>import</span> pyautogui
+░▀░▀░▀▀▀░▀░▀░▀░▀░▀▀▀░▀░▀░▀░░▀░▀░░▀░░▀▀▀</pre></a>
+	<span class="logo-quote">O. George’s site</span>
+	
+</header>
 
-<span style=color:#ff79c6>import</span> os
-<span style=color:#ff79c6>while</span>(True):
-    pyautogui<span style=color:#ff79c6>.</span>hotkey(<span style=color:#f1fa8c>&#34;winleft&#34;</span>, <span style=color:#f1fa8c>&#39;j&#39;</span>) <span style=color:#6272a4># toggle window</span>
-    pyautogui<span style=color:#ff79c6>.</span>press([<span style=color:#f1fa8c>&#34;v&#34;</span>, <span style=color:#f1fa8c>&#34;$&#34;</span>, <span style=color:#f1fa8c>&#34;y&#34;</span>]) <span style=color:#6272a4># copy string</span>
-    pyautogui<span style=color:#ff79c6>.</span>hotkey(<span style=color:#f1fa8c>&#34;winleft&#34;</span>, <span style=color:#f1fa8c>&#39;j&#39;</span>) <span style=color:#6272a4># toggle window</span>
-    pyautogui<span style=color:#ff79c6>.</span>hotkey(<span style=color:#f1fa8c>&#34;ctrl&#34;</span>, <span style=color:#f1fa8c>&#39;v&#39;</span>)    <span style=color:#6272a4># past text</span>
-    pyautogui<span style=color:#ff79c6>.</span>press(<span style=color:#f1fa8c>&#34;tab&#34;</span>)           <span style=color:#6272a4># next input field</span>
-    pyautogui<span style=color:#ff79c6>.</span>hotkey(<span style=color:#f1fa8c>&#34;winleft&#34;</span>, <span style=color:#f1fa8c>&#39;j&#39;</span>) <span style=color:#6272a4># toggle window</span>
-    pyautogui<span style=color:#ff79c6>.</span>press([<span style=color:#f1fa8c>&#34;j&#34;</span>,<span style=color:#f1fa8c>&#34;0&#34;</span>, <span style=color:#f1fa8c>&#34;w&#34;</span>, <span style=color:#f1fa8c>&#34;v&#34;</span> , <span style=color:#f1fa8c>&#34;$&#34;</span>, <span style=color:#f1fa8c>&#34;y&#34;</span>, <span style=color:#f1fa8c>&#34;0&#34;</span>, <span style=color:#f1fa8c>&#34;j&#34;</span>, <span style=color:#f1fa8c>&#34;j&#34;</span> ])
-						         <span style=color:#6272a4># move to next line beginning, copy it and go to next occurence</span>
-    pyautogui<span style=color:#ff79c6>.</span>hotkey(<span style=color:#f1fa8c>&#34;winleft&#34;</span>, <span style=color:#f1fa8c>&#39;j&#39;</span>) <span style=color:#6272a4># toggle window</span>
-    pyautogui<span style=color:#ff79c6>.</span>hotkey(<span style=color:#f1fa8c>&#34;ctrl&#34;</span>, <span style=color:#f1fa8c>&#39;v&#39;</span>)    <span style=color:#6272a4># paste text</span>
-    pyautogui<span style=color:#ff79c6>.</span>press(<span style=color:#f1fa8c>&#34;tab&#34;</span>)           <span style=color:#6272a4># ...</span>
-    pyautogui<span style=color:#ff79c6>.</span>press(<span style=color:#f1fa8c>&#34;tab&#34;</span>)           <span style=color:#6272a4># ...</span>
-    pyautogui<span style=color:#ff79c6>.</span>press(<span style=color:#f1fa8c>&#34;tab&#34;</span>)           <span style=color:#6272a4># ...</span>
-    pyautogui<span style=color:#ff79c6>.</span>press(<span style=color:#f1fa8c>&#34;tab&#34;</span>)           <span style=color:#6272a4># ... way to submit button</span>
-    pyautogui<span style=color:#ff79c6>.</span>press(<span style=color:#f1fa8c>&#34;space&#34;</span>)         <span style=color:#6272a4># pressing submit button</span>
-</code></pre></td></tr></table></div></div><p><code>while true</code> was my mistake. I launched script in terminal, with <code>sleep</code> 3 seconds before.
-But i couldn&rsquo;t shut script down without any strange effect when i opening not only 2 windows in my Window Manager.
-Some strange things happen before I cached terminal and pressed <code>Ctrl+C</code></p></div></article></main><footer><ul class=contacts><li><a href=https://github.com/horhik class=contact-link><pre>         oo   dP   dP                dP       
+	
+	<main>
+		<article class="blog-post">
+				<h1 class="blog-header">PyAutoGUI for simplifying anki routine</h1>
+			<sub><small><time>21.01.2021 10:26</time></small></sub>
+			<div>
+				<p>I had been adding some cards to Anki.
+It was lowercase word and word with stress in russian. like <em>торты тОрты.</em></p>
+<p>I&rsquo;m lazy and i wrote two simple scripts. All what i have to do is input words with stress into a file.<br>
+First script for creating file with list of sequence of word with stress and lowercase word</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-python" data-lang="python"><span style="color:#ff79c6">import</span> os
+f <span style="color:#ff79c6">=</span> <span style="color:#8be9fd;font-style:italic">open</span>(<span style="color:#f1fa8c">&#34;/home/horhik/text.txt&#34;</span>, <span style="color:#f1fa8c">&#39;r+&#39;</span>)
+lines <span style="color:#ff79c6">=</span> f<span style="color:#ff79c6">.</span>readlines()
+<span style="color:#ff79c6">for</span> ind, line <span style="color:#ff79c6">in</span> <span style="color:#8be9fd;font-style:italic">enumerate</span>(lines):
+    <span style="color:#ff79c6">print</span>(line<span style="color:#ff79c6">.</span>lower(), <span style="color:#f1fa8c">&#34; &#34;</span>, line)
+</code></pre></td></tr></table>
+</div>
+</div><p>After, i just pushed output to file and opened it it Emacs.</p>
+<p>Second script automatizing adding cards to A<strong>nki</strong>.<br>
+I split my window by <strong>Anki</strong> &ldquo;add card&rdquo; window and <strong>Emacs</strong>. As i use <code>evil</code> mode in Emacs, script looks like that:</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-python" data-lang="python"><span style="color:#ff79c6">import</span> pyautogui
+
+<span style="color:#ff79c6">import</span> os
+<span style="color:#ff79c6">while</span>(True):
+    pyautogui<span style="color:#ff79c6">.</span>hotkey(<span style="color:#f1fa8c">&#34;winleft&#34;</span>, <span style="color:#f1fa8c">&#39;j&#39;</span>) <span style="color:#6272a4"># toggle window</span>
+    pyautogui<span style="color:#ff79c6">.</span>press([<span style="color:#f1fa8c">&#34;v&#34;</span>, <span style="color:#f1fa8c">&#34;$&#34;</span>, <span style="color:#f1fa8c">&#34;y&#34;</span>]) <span style="color:#6272a4"># copy string</span>
+    pyautogui<span style="color:#ff79c6">.</span>hotkey(<span style="color:#f1fa8c">&#34;winleft&#34;</span>, <span style="color:#f1fa8c">&#39;j&#39;</span>) <span style="color:#6272a4"># toggle window</span>
+    pyautogui<span style="color:#ff79c6">.</span>hotkey(<span style="color:#f1fa8c">&#34;ctrl&#34;</span>, <span style="color:#f1fa8c">&#39;v&#39;</span>)    <span style="color:#6272a4"># past text</span>
+    pyautogui<span style="color:#ff79c6">.</span>press(<span style="color:#f1fa8c">&#34;tab&#34;</span>)           <span style="color:#6272a4"># next input field</span>
+    pyautogui<span style="color:#ff79c6">.</span>hotkey(<span style="color:#f1fa8c">&#34;winleft&#34;</span>, <span style="color:#f1fa8c">&#39;j&#39;</span>) <span style="color:#6272a4"># toggle window</span>
+    pyautogui<span style="color:#ff79c6">.</span>press([<span style="color:#f1fa8c">&#34;j&#34;</span>,<span style="color:#f1fa8c">&#34;0&#34;</span>, <span style="color:#f1fa8c">&#34;w&#34;</span>, <span style="color:#f1fa8c">&#34;v&#34;</span> , <span style="color:#f1fa8c">&#34;$&#34;</span>, <span style="color:#f1fa8c">&#34;y&#34;</span>, <span style="color:#f1fa8c">&#34;0&#34;</span>, <span style="color:#f1fa8c">&#34;j&#34;</span>, <span style="color:#f1fa8c">&#34;j&#34;</span> ])
+						         <span style="color:#6272a4"># move to next line beginning, copy it and go to next occurence</span>
+    pyautogui<span style="color:#ff79c6">.</span>hotkey(<span style="color:#f1fa8c">&#34;winleft&#34;</span>, <span style="color:#f1fa8c">&#39;j&#39;</span>) <span style="color:#6272a4"># toggle window</span>
+    pyautogui<span style="color:#ff79c6">.</span>hotkey(<span style="color:#f1fa8c">&#34;ctrl&#34;</span>, <span style="color:#f1fa8c">&#39;v&#39;</span>)    <span style="color:#6272a4"># paste text</span>
+    pyautogui<span style="color:#ff79c6">.</span>press(<span style="color:#f1fa8c">&#34;tab&#34;</span>)           <span style="color:#6272a4"># ...</span>
+    pyautogui<span style="color:#ff79c6">.</span>press(<span style="color:#f1fa8c">&#34;tab&#34;</span>)           <span style="color:#6272a4"># ...</span>
+    pyautogui<span style="color:#ff79c6">.</span>press(<span style="color:#f1fa8c">&#34;tab&#34;</span>)           <span style="color:#6272a4"># ...</span>
+    pyautogui<span style="color:#ff79c6">.</span>press(<span style="color:#f1fa8c">&#34;tab&#34;</span>)           <span style="color:#6272a4"># ... way to submit button</span>
+    pyautogui<span style="color:#ff79c6">.</span>press(<span style="color:#f1fa8c">&#34;space&#34;</span>)         <span style="color:#6272a4"># pressing submit button</span>
+</code></pre></td></tr></table>
+</div>
+</div><p><code>while(true)</code> was my mistake. I launched script in terminal, with <code>sleep</code> 3 seconds before.<br>
+But i couldn&rsquo;t shut script down without any strange effect when i opening not only 2 windows in my Window Manager.<br>
+Some strange things happen before I cached terminal and pressed <code>Ctrl+C</code></p>
+
+			</div>
+			
+			
+		</article>
+	</main>
+
+	<footer>
+	<ul class="contacts">
+		<li><a href="https://github.com/horhik" class=" contact-link">
+				<pre>         oo   dP   dP                dP       
               88   88                88       
 .d8888b. dP d8888P 88d888b. dP    dP 88d888b. 
 88'  `88 88   88   88'  `88 88    88 88'  `88 
 88.  .88 88   88   88    88 88.  .88 88.  .88 
 `8888P88 dP   dP   dP    dP `88888P' 88Y8888' 
      .88                                      
- d8888P                                       </pre></a></li><li><a href=https://twitter.com/HORHl class=contact-link><pre>  dP              oo   dP     dP                     
+ d8888P                                       </pre></a></li>
+		<li><a href="https://twitter.com/HORHl" class=" contact-link">
+				<pre>  dP              oo   dP     dP                     
   88                   88     88                     
 d8888P dP  dP  dP dP d8888P d8888P .d8888b. 88d888b. 
   88   88  88  88 88   88     88   88ooood8 88'  `88 
   88   88.88b.88' 88   88     88   88.  ... 88       
   dP   8888P Y8P  dP   dP     dP   `88888P' dP       
                                                      
-                                                     </pre></a></li><li><a href=mailto:horhik@tuta.io class=contact-link><pre>                    oo dP 
+                                                     </pre></a></li>
+		<li><a href="mailto:horhik@tuta.io" class=" contact-link">
+				<pre>                    oo dP 
                        88 
 88d8b.d8b. .d8888b. dP 88 
 88'`88'`88 88'  `88 88 88 
 88  88  88 88.  .88 88 88 
 dP  dP  dP `88888P8 dP dP 
                           
-                          </pre></a></li></ul><p class=copyright>&copy;2021 <a href=https://site.horhik.xyz/>Horhik.xyz</a></p></footer></body></html>
+                          </pre></a></li>
+	</ul>
+	<p class="copyright">&copy;2021 <a href="https://site.horhik.xyz/">Horhik.xyz</a></p>
+</footer>
+</body>
+</html>

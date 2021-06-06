@@ -21,10 +21,10 @@
 
 {{ partial "header" . }}
 <main id="main">
-  <div>
+  <ul class="portfolio">
   {{ range .Pages }}
     {{ .Render "summary"}}
   {{ end }}
-  </div>
+  </ul>
 </main>
 {{ partial "footer" . }}

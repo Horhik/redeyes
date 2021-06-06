@@ -133,7 +133,8 @@ p code, quote code, q code {
 @media screen and (max-width: 420px) {
   .page-link {
     line-height: 1.112em;
-    white-space: pre-line; }
+    white-space: pre-line;
+    margin-bottom: 5px; }
   .page-list {
     flex-direction: column;
     align-items: center;

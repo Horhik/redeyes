@@ -4,13 +4,21 @@
 ░█▀█░█░█░█▀▄░█▀█░░█░░█▀▄░░░░▄▀▄░░█░░▄▀░
 ░▀░▀░▀▀▀░▀░▀░▀░▀░▀▀▀░▀░▀░▀░░▀░▀░░▀░░▀▀▀</pre></a>
 	<span class="logo-quote">O. George’s site</span>
-	{{ with .Site.Menus.main }}
 	<nav>
-		<ul>
-			{{ range . }}
-			<li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+		<ul class="page-list">
+			{{ range .Site.Sections }}
+			<li class="page-link"><a href="{{ .URL | relURL }}">
+			    {{ if  eq (title .Section)  "Portfolio"}}
+░█▀█░█▀█░█▀▄░▀█▀░█▀▀░█▀█░█░░░▀█▀░█▀█
+░█▀▀░█░█░█▀▄░░█░░█▀▀░█░█░█░░░░█░░█░█
+░▀░░░▀▀▀░▀░▀░░▀░░▀░░░▀▀▀░▀▀▀░▀▀▀░▀▀
+			    {{ else if eq (title .Section) "Posts"}}
+░█▀▄░█░░░█▀█░█▀▀
+░█▀▄░█░░░█░█░█░█
+░▀▀░░▀▀▀░▀▀▀░▀▀▀
+			    {{end}}
+			</a></li>
 			{{ end }}
 		</ul>
 	</nav>
-	{{ end }}
 </header>

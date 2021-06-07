@@ -54,7 +54,7 @@ body {
   padding: 0;
   background-color: var(--background);
   color: var(--foreground);
-  font-family: 'Ubuntu', 'Twemoji' sans-serif;
+  font-family: 'Mononoki', 'Ubuntu', 'Twemoji' sans-serif;
   max-width: 1000px;
   margin: 0 auto;
   box-shadow: 0px -30px 20px rgba(0, 0, 0, 0.5);
@@ -112,6 +112,19 @@ img {
   margin: 0;
   font-family: Mononoki, 'Fira Code',monospace, Ubuntu;
   white-space: pre-line; }
+
+.not-found {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  line-height: 28px;
+  color: var(--selection);
+  tansition: 0.3s; }
+
+@media screen and (max-width: 500px) {
+  .not-found {
+    font-size: 14px;
+    line-height: 14px; } }
 
 .page-list {
   list-style: none;
@@ -250,7 +263,9 @@ img {
   max-width: 70vw;
   transition: 0.3s; }
   .project:hover, .project:focus {
-    box-shadow: 4px 4px 18px rgba(0, 0, 0, 0.5); }
+    box-shadow: 4px 4px 24px rgba(0, 0, 0, 0.6); }
+  .project h2 {
+    margin-bottom: 0; }
 
 .project-name {
   color: var(--green);
@@ -270,6 +285,11 @@ img {
   flex-wrap: wrap;
   justify-content: space-around; }
 
+.project-icon {
+  width: 35px;
+  height: auto;
+  margin-right: 10px; }
+
 .project-link {
   margin-right: 10px;
   display: flex;
@@ -279,13 +299,13 @@ img {
   .project-link::before {
     margin-right: 10px; }
   .project-link--github::before {
-    content: url("../../svg/github-icon.svg"); }
+    content: url("./github-icon.svg"); }
   .project-link--iphone::before {
-    content: url("../../svg/appstore.svg"); }
+    content: url("./appstore.svg"); }
   .project-link--android::before {
-    content: url("../../svg/googleplay.svg"); }
+    content: url("./googleplay.svg"); }
   .project-link--app-page::before {
-    content: url("../../svg/app-page.svg"); }
+    content: url("./app-page.svg"); }
 
 .project-link__logo {
   margin-right: 10px;

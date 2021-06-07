@@ -2,6 +2,7 @@ baseURL = "https://site.horhik.xyz/"
 languageCode = "en-us"
 title = "Horhik.xyz"
 summaryLength=10
+enableEmoji = true
 
 [markup]
   [markup.highlight]
@@ -31,3 +32,10 @@ summaryLength=10
   name = "LinkedIn"
   url = "https://www.linkedin.com/in/horhik"
   weight = 100
+
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  site = "site"
+  github = "github"

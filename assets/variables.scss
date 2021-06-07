@@ -1,0 +1,37 @@
+/* Dracula theme */
+/*
+:root {
+  --background: #282A36 ;
+  --comment: #6272A4 ;
+  --selection: #44475A ;
+  --foreground: #F8F8F2 ;
+  --cyan: #8BE9FD ;
+  --orange: #FFB86C;
+  --green: #50FA7B ;
+  --pink: #FF79C6 ;
+  --purple: #BD93F9 ;
+  --red: #FF5555 ;
+  --yellow: #F1FA8C;
+}
+*/
+/* Gruvbox theme */
+:root {
+  --background: #282828 ;
+  --comment: #458588 ;
+  --selection: #665c54 ;
+  --foreground: #ebdbb2 ;
+  --cyan: #83a598 ;
+  --orange: #fe8019;
+  --green: #98971a ;
+  --pink: #d3869b ;
+  --purple: #b16286 ;
+  --red: #cc241d ;
+  --yellow: #F1FA8C;
+}
+
+$ascii-line-height: 1.115em;
+$ascii-line-height-mobile: 1.112em;
+$header-color: var(--green);
+$main-font: 'Mononoki', 'Twemoji', monospace;
+$blog-font: 'Cuprum', 'Mononoki', 'Twemoji', monospace;
+$link-color: var(--cyan);

@@ -21,7 +21,10 @@
   max-width: 70vw;
   transition: 0.3s;
   &:hover, &:focus{
-    box-shadow: 4px 4px 18px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 24px rgba(0, 0, 0, 0.6);
+  }
+  & h2 {
+      margin-bottom: 0;
   }
 
 }
@@ -48,6 +51,12 @@
 
 }
 
+.project-icon{
+    width: 35px;
+    height: auto;
+    margin-right: 10px;
+}
+
 .project-link{
   margin-right: 10px;
   display: flex;
@@ -59,22 +68,22 @@
  }
   &--github{
     &::before{
-      content: url("../../svg/github-icon.svg");
+      content: url("./github-icon.svg");
     }
   }
   &--iphone{
     &::before{
-      content: url("../../svg/appstore.svg");
+      content: url("./appstore.svg");
     }
   }
   &--android{
     &::before{
-      content: url("../../svg/googleplay.svg");
+      content: url("./googleplay.svg");
     }
   }
   &--app-page{
     &::before{
-      content: url("../../svg/app-page.svg");
+      content: url("./app-page.svg");
     }
   }
 }

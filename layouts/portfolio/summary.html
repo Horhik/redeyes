@@ -3,7 +3,25 @@
 		<a class="project-name" href="{{ .Permalink }}">{{ .Title }}</a>
 	</h2>
 	<p class="project-description">{{.Description}}</p>
-	<time class="recent-block__time">{{ .Date.Format "02.01.2006 15:04" }}</time>
+	<ul class="project-links">
+	{{if  in .Params.github ""}}
+	<li class="project-link project-link--github" >
+	<a href="{{.Params.github}}">
+		Github 
+	</a>
+	  </li>
+	{{end}}
+	{{if in .Params.site ""}}
+	<li class="project-link" >
+	  <img class="project-icon" src="{{.Params.icon}}">
+	  <a href="{{.Params.github}}">
+		Site 
+	  </a>
+	 </li>
+
+	{{end}}
+	</ul>
+
 	
 	{{ range .Params.tags }}
 	<!-- <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> -->

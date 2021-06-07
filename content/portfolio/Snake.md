@@ -4,6 +4,8 @@ date: 2019-11-01T00:00:00+03:00
 type: portfolio
 description: "Snake game written with P5js"
 tags: ["game", "javascript"]
+github: "https://github.com/horhik/snake"
+site: "https://snake.horhik.xyz/"
 ---
 
 The simple snake game which working on both desktop 🖥 and mobile 📲

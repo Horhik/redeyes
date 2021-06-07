@@ -1,0 +1,60 @@
+@import "variables";
+@import "fonts";
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family:  'Mononoki', 'Ubuntu', 'Twemoji' sans-serif;
+  max-width: 1000px;
+  margin: 0 auto;
+  box-shadow: 0px -30px 20px rgba(0, 0, 0, 0.5);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding:10px 0;
+
+
+
+
+}
+a, .link{
+  transition: 0.3s;
+  color: $link-color;
+  text-decoration: none;
+   &:hover, &:focus{
+     color: var(--pink)
+   }
+ }
+
+@media (min-width: 1000px) {
+  box-shadow: 4px 4px 32px rgba(0, 0, 0, 0.34);
+}
+
+.h1{
+  font-family: 'Mononoki Bold', 'Fira Code SemiBold', 'Twemoji' ;
+  font-size: 2em;
+}
+
+// Highlighting one line code (which uses ` not ```)
+p code, quote code, q code{
+  font-family: $main-font;
+  background: var(--selection);
+  color: var(--cyan);
+  border-radius: 3px;
+  padding: 0 6px;
+}
+
+img {
+    width: 100%;
+}
+
+@import "logo";
+@import "page-404";
+@import "elements/page-links";
+@import "elements/recent-list";
+@import "elements/contacts";
+@import "elements/portfolio-project";
+@import "elements/blog-post-preview";
+@import "elements/blog-post";

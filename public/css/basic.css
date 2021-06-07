@@ -16,6 +16,7 @@
 }
 */
 /* Gruvbox theme */
+@import url("https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 :root {
   --background: #282828 ;
   --comment: #458588 ;
@@ -44,12 +45,16 @@
   src: url("../fonts/mononoki-Regular.eot");
   src: url("../fonts/mononoki-Regular.eot") format("embedded-opentype"), url("../fonts/mononoki-Regular.ttf") format("truetype"), url("../fonts/mononoki-Regular.woff2") format("woff2"), url("../fonts/mononoki-Regular.woff") format("woff"); }
 
+@font-face {
+  font-family: 'Twemoji';
+  src: url("../fonts/Twemoji.ttf") format("truetype"); }
+
 body {
   margin: 0;
   padding: 0;
   background-color: var(--background);
   color: var(--foreground);
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Mononoki', 'Ubuntu', 'Twemoji' sans-serif;
   max-width: 1000px;
   margin: 0 auto;
   box-shadow: 0px -30px 20px rgba(0, 0, 0, 0.5);
@@ -68,15 +73,18 @@ a, .link {
   box-shadow: 4px 4px 32px rgba(0, 0, 0, 0.34); }
 
 .h1 {
-  font-family: 'Mononoki Bold', 'Fira Code SemiBold';
+  font-family: 'Mononoki Bold', 'Fira Code SemiBold', 'Twemoji';
   font-size: 2em; }
 
 p code, quote code, q code {
-  font-family: "Mononoki", monospace;
+  font-family: "Mononoki", "Twemoji", monospace;
   background: var(--selection);
   color: var(--cyan);
   border-radius: 3px;
   padding: 0 6px; }
+
+img {
+  width: 100%; }
 
 .logo--wrapper {
   display: grid;
@@ -105,6 +113,19 @@ p code, quote code, q code {
   font-family: Mononoki, 'Fira Code',monospace, Ubuntu;
   white-space: pre-line; }
 
+.not-found {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  line-height: 28px;
+  color: var(--selection);
+  tansition: 0.3s; }
+
+@media screen and (max-width: 500px) {
+  .not-found {
+    font-size: 14px;
+    line-height: 14px; } }
+
 .page-list {
   list-style: none;
   display: flex;
@@ -129,7 +150,8 @@ p code, quote code, q code {
 @media screen and (max-width: 420px) {
   .page-link {
     line-height: 1.112em;
-    white-space: pre-line; }
+    white-space: pre-line;
+    margin-bottom: 5px; }
   .page-list {
     flex-direction: column;
     align-items: center;
@@ -150,7 +172,7 @@ p code, quote code, q code {
 
 .recent-block {
   text-decoration: none;
-  font-family: Mononoki, monospace;
+  font-family: "Mononoki", "Twemoji", monospace;
   font-size: 1.3em;
   box-shadow: 4px 4px 32px rgba(0, 0, 0, 0.34);
   background: var(--background);
@@ -216,7 +238,7 @@ p code, quote code, q code {
   display: block; }
 
 .copyright {
-  font-family: "Mononoki", monospace;
+  font-family: "Mononoki", "Twemoji", monospace;
   margin-left: 20px; }
 
 .portfolio {
@@ -235,13 +257,15 @@ p code, quote code, q code {
   box-shadow: 4px 4px 32px rgba(0, 0, 0, 0.34);
   border-radius: 10px;
   background: var(--background);
-  font-family: "Mononoki", monospace;
+  font-family: "Mononoki", "Twemoji", monospace;
   text-align: center;
   margin: 20px 0;
   max-width: 70vw;
   transition: 0.3s; }
   .project:hover, .project:focus {
-    box-shadow: 4px 4px 18px rgba(0, 0, 0, 0.5); }
+    box-shadow: 4px 4px 24px rgba(0, 0, 0, 0.6); }
+  .project h2 {
+    margin-bottom: 0; }
 
 .project-name {
   color: var(--green);
@@ -261,6 +285,11 @@ p code, quote code, q code {
   flex-wrap: wrap;
   justify-content: space-around; }
 
+.project-icon {
+  width: 35px;
+  height: auto;
+  margin-right: 10px; }
+
 .project-link {
   margin-right: 10px;
   display: flex;
@@ -270,13 +299,13 @@ p code, quote code, q code {
   .project-link::before {
     margin-right: 10px; }
   .project-link--github::before {
-    content: url("../../svg/github-icon.svg"); }
+    content: url("./github-icon.svg"); }
   .project-link--iphone::before {
-    content: url("../../svg/appstore.svg"); }
+    content: url("./appstore.svg"); }
   .project-link--android::before {
-    content: url("../../svg/googleplay.svg"); }
+    content: url("./googleplay.svg"); }
   .project-link--app-page::before {
-    content: url("../../svg/app-page.svg"); }
+    content: url("./app-page.svg"); }
 
 .project-link__logo {
   margin-right: 10px;
@@ -328,19 +357,20 @@ p code, quote code, q code {
 
 .blog-header {
   color: var(--green);
-  font-family: "Mononoki", monospace;
+  font-family: "Mononoki Bold", "Twitter Color Emoji", "Twemoji", sans-serif;
   font-size: 2em;
   display: inline-flex;
   justify-content: center;
   text-align: center;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-top: 32px; }
 
 .blog-post {
   padding: 0px 30px;
   font-size: 22px;
   font-family: Ubuntu; }
   .blog-post time {
-    font-family: "Mononoki", monospace;
+    font-family: "Cuprum", "Mononoki", "Twemoji", monospace;
     display: flex;
     align-content: center;
     justify-content: center;

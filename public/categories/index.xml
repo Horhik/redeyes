@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Horhik.xyz</title>
-    <link>https://site.horhik.xyz/categories/</link>
+    <link>https://horhik.xyz/categories/</link>
     <description>Recent content in Categories on Horhik.xyz</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://site.horhik.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://horhik.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

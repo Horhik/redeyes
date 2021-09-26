@@ -1,18 +1,19 @@
 
-{{$horhik    := "░█░█░█▀█░█▀▄░█░█░▀█▀░█░█░░░░█░█░█░█░▀▀█\n░█▀█░█░█░█▀▄░█▀█░░█░░█▀▄░░░░▄▀▄░░█░░▄▀░\n░▀░▀░▀▀▀░▀░▀░▀░▀░▀▀▀░▀░▀░▀░░▀░▀░░▀░░▀▀▀"}}
+{{$horhik    := "░█░█░▀█▀░░░░░░░▀█▀░▀░█▄█░░░█▀█░░░█░█░█▀█░█▀▄░█░█░▀█▀░█░█\n░█▀█░░█░░░░░░░░░█░░░░█░█░░░█▀█░░░█▀█░█░█░█▀▄░█▀█░░█░░█▀▄\n░▀░▀░▀▀▀░▄▀░░░░▀▀▀░░░▀░▀░░░▀░▀░░░▀░▀░▀▀▀░▀░▀░▀░▀░▀▀▀░▀░▀"}}
+{{$home      := "░█▄█░█▀█░▀█▀░█▀█░▄▀░░▀▄░\n\n░█░█░█▀█░░█░░█░█░█░░░░█░\n░▀░▀░▀░▀░▀▀▀░▀░▀░░▀░░▀░░"}}
 {{$portfolio := "░█▀█░█▀█░█▀▄░▀█▀░█▀▀░█▀█░█░░░▀█▀░█▀█\n░█▀▀░█░█░█▀▄░░█░░█▀▀░█░█░█░░░░█░░█░█\n░▀░░░▀▀▀░▀░▀░░▀░░▀░░░▀▀▀░▀▀▀░▀▀▀░▀▀"}}
 {{$blog      := "░█▀▄░█░░░█▀█░█▀▀\n ░█▀▄░█░░░█░█░█░█\n ░▀▀░░▀▀▀░▀▀▀░▀▀▀"}}
 {{$sec       := .FirstSection}}
 <header class="logo--wrapper">
   <a href="{{ .Page.URL }}"><pre class="logo toilet-logo" title="Home">{{if eq  .Section "portfolio"}}
       {{$portfolio}}
-	<span class="logo-quote">O. George’s works</span>
+<!--	<span class="logo-quote">O. George’s works</span> -->
       {{else if eq .Section "posts"}}
       {{$blog}}
-	<span class="logo-quote">O. George’s thoughts</span>
+  <!--<span class="logo-quote">O. George’s thoughts</span> -->
       {{else}}
       {{$horhik}}
-	<span class="logo-quote">O. George’s site</span>
+<!--	<span class="logo-quote">O. George’s site</span> -->
       {{end}}
   </pre></a>
 	<nav>
@@ -25,7 +26,7 @@
 			</a></li>
 			{{ end }}
 			{{if ne (title .FirstSection) "Horhik.xyz"}}
-			<li class="page-link"><a href="{{.Site.BaseURL}}">{{$horhik}}</a></li>
+			<li class="page-link"><a href="{{.Site.BaseURL}}">{{$home}}</a></li>
 			{{end}}
 			
 		</ul>

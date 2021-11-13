@@ -19,6 +19,10 @@ body {
 
 
 }
+
+p {
+  font-family: sans-serif;
+}
 a, .link{
   transition: 0.3s;
   color: $link-color;
@@ -33,7 +37,7 @@ a, .link{
 }
 
 .h1{
-  font-family: 'Mononoki Bold', 'Fira Code SemiBold', 'Twemoji' ;
+  font-family: 'Mononoki Bold', 'Fira Code SemiBold', 'Twemoji', monospace ;
   font-size: 2em;
 }
 

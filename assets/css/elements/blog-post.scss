@@ -12,7 +12,7 @@
 
 .blog-post{
    time{
-        font-family: $blog-font;
+        font-family: $blog-font, sans-serif;
         display: flex;
         align-content: center;
         justify-content: center;
@@ -20,5 +20,5 @@
     }
    padding: 0px 30px;
    font-size: 22px;
-   font-family: Ubuntu;
+   font-family: Ubuntu, sans-serif;
 }

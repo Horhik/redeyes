@@ -3,6 +3,7 @@
 {{$home      := "░█▄█░█▀█░▀█▀░█▀█░▄▀░░▀▄░\n\n░█░█░█▀█░░█░░█░█░█░░░░█░\n░▀░▀░▀░▀░▀▀▀░▀░▀░░▀░░▀░░"}}
 {{$portfolio := "░█▀█░█▀█░█▀▄░▀█▀░█▀▀░█▀█░█░░░▀█▀░█▀█\n░█▀▀░█░█░█▀▄░░█░░█▀▀░█░█░█░░░░█░░█░█\n░▀░░░▀▀▀░▀░▀░░▀░░▀░░░▀▀▀░▀▀▀░▀▀▀░▀▀"}}
 {{$blog      := "░█▀▄░█░░░█▀█░█▀▀\n ░█▀▄░█░░░█░█░█░█\n ░▀▀░░▀▀▀░▀▀▀░▀▀▀"}}
+{{$music      := "░█▄█░█░█░█▀▀░▀█▀░█▀▀\n░█░█░█░█░▀▀█░░█░░█░░\n░▀░▀░▀▀▀░▀▀▀░▀▀▀░▀▀▀"}}
 {{$sec       := .FirstSection}}
 <header class="logo--wrapper">
   <a href="{{ .Page.URL }}"><pre class="logo toilet-logo" title="Home">{{if eq  .Section "portfolio"}}
@@ -10,6 +11,8 @@
 <!--	<span class="logo-quote">O. George’s works</span> -->
       {{else if eq .Section "posts"}}
       {{$blog}}
+			{{else if eq .Section "music"}}
+      {{$music}}
   <!--<span class="logo-quote">O. George’s thoughts</span> -->
       {{else}}
       {{$horhik}}
@@ -22,6 +25,7 @@
 			<li class="page-link"><a href="{{ .URL | relURL }}">
 			    {{ if  eq (title .Section)  "Portfolio"   }}{{$portfolio}}
 			    {{ else if eq (title .Section) "Posts"}}{{$blog}}
+			    {{ else if eq (title .Section) "Music"}}{{$music}}
 			    {{end}}
 			</a></li>
 			{{ end }}

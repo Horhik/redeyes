@@ -1,5 +1,14 @@
 {{ define "main" }}
 	<main>
+<style>
+	audio {height:200px; 
+		width:300px; 
+		background-image:url("{{.Params.image_url}}");
+		background-position: center;
+		background-size: 550px 425px;
+		border-radius: 10px;
+	}
+</style>
 		<article class="blog-post">
 				<h1 class="blog-header">{{ .Title }}</h1>
 			<sub><small><time>{{ .Date.Format "02.01.2006 15:04" }}</time></small></sub>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Your redeyes god</title>
+    <link>https://god.redeyes.club/posts/</link>
+    <description>Recent content in Posts on Your redeyes god</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 Jan 2021 10:26:19 +0300</lastBuildDate><atom:link href="https://god.redeyes.club/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PyAutoGUI for simplifying anki routine</title>
+      <link>https://god.redeyes.club/posts/pyautogui-for-simplifying-anki-routine/</link>
+      <pubDate>Thu, 21 Jan 2021 10:26:19 +0300</pubDate>
+      
+      <guid>https://god.redeyes.club/posts/pyautogui-for-simplifying-anki-routine/</guid>
+      <description>I had been adding some cards to Anki. It was lowercase word and word with stress in russian.</description>
+    </item>
+    
+  </channel>
+</rss>

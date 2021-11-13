@@ -1,7 +1,7 @@
 #baseURL = "https://horhik.xyz/"
-baseURL = "https://god.redeyes.club/"
+baseURL = "https://redeyes.club/"
 languageCode = "en-us"
-title = "Your redeyes god"
+title = "Horhik's redeyes reason"
 summaryLength=10
 enableEmoji = true
 
@@ -22,8 +22,8 @@ enableEmoji = true
 	unsafe= true
 
 [[menu.social]]
-  name = "Twitter"
-  url = "https://twitter.com/HORHI"
+  name = "Mastodon"
+  url = "https://mastodon.ml/web/accounts/74403"
   weight = 1
 [[menu.social]]
   name = "GitHub"
